@@ -182,7 +182,7 @@ flowchart TD
 To optimize long-term cognitive modeling alongside explosive multi-user training bursts, the system orchestrates an asynchronous prior-inheritance bridge. The *Baseline Engine* establishes highly stable retention decay parameters using deterministic interleaved repetition matrix tracking. When a user switches to a high-intensity session, the *Stochastic Engine* maps these parameter inputs as empirical prior vectors ($\alpha, \beta$) into a *Bounded Thompson Sampling* loop. This guarantees balanced stochastic exploration without experiencing common cold-start evaluation failures.
 
 ### B. Client-Side Debounce & Atomic Ingestion CQRS
-High-frequency writing of multi-dimensional telemetry data points (coordinates, pressure vectors, timestamps) to cloud persistence layer is bounded by a client-side *Edge Debounce Queue*. Transactions flush strictly under combined $N$-item thresholds or $T$-second time windows. 
+Engineered an edge-computing training system specifically for low-bandwidth, legacy school computer labs. Mitigated severe write amplification and network latency via a client-side Edge Debounce Queue, keeping runtime overhead at absolute zero for institutional deployment.
 
 Upon flushing, the AttemptBatcher executes an immutable append operation to the raw telemetry data lake. Simultaneously, an asynchronous stream truncator calculates a condensed 30-item sliding footprint, writing a localized User Manifest Store snapshot. This ensures that administrative dashboards can extract real-time tracking metrics at deterministic $O(1)$ query execution bounds.
 
