@@ -4,6 +4,9 @@
 
 > **🔒 Proprietary & Commercialization Notice:** The core source code, exact reward functions, automated routing mechanics, and contextual word-masking algorithms of this system are strictly maintained in a secure, **private repository**. This absolute code isolation is legally and commercially mandatory for two reasons: (1) **Anti-Cheat & Vulnerability Prevention:** The platform embeds proprietary, stem-aware parsing regex engines designed around the official question banks of the **National English Spelling Competition ("全國英語單字王大賽")** in Taiwan. Open-sourcing the repository would expose the underlying validation logic, allowing tech-savvy students to extract raw answer lists or bypass context-masking filters via API reverse-engineering, destroying competition integrity. (2) **Commercial B2B Architecture Protection:** The "Zero-IT-Overhead" pipeline—enabling non-technical educators to dynamically update nationwide competition banks by merely dropping a spreadsheet into a git-tree—is a proprietary trade secret. This public file serves exclusively as an obfuscated architectural blueprint and empirical portfolio review.
 
+## 0. Operational Context & Empirical Learning Outcomes:
+Deployed during my teaching practicum, this adaptive framework supported the school's spelling bee cohort, raising their Level 3 vocabulary accuracy from a 40% baseline to a sustainable 75%–80% success rate.
+
 ---
 
 ## 1. Pedagogical Pain Points & Budget-Driven Engineering
